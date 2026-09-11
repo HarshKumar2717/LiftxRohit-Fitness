@@ -13,7 +13,7 @@ export function RohitImage({ className = '', imgClassName = '', priority = false
   return (
     <div className={`relative overflow-hidden ${className}`}>
       <img
-        src="/assets/images/image.png"
+        src="/images/image.png"
         alt="Mr. Rohit — Personal Fitness Trainer & Coach at LIFT X WITH ROHIT"
         loading={priority ? 'eager' : 'lazy'}
         decoding="async"
